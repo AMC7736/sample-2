@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .firstbox {
+        width: 100vw;
+        height: 80px;
+        background-color: blue;
+        position: sticky;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .storename {
+        font-weight: bold;
+        font-size: xx-large;
+        margin-left: 30px;
+        font-style: italic;
+        margin-top: 15px;
+        padding: 20px;
+        color: antiquewhite;
+      }
+
+      input[type="search"] {
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        margin-left: 100px;
+        position: absolute;
+        bottom: 20px;
+        text-align: center;
+      }
+      .login {
+        font-size: larger;
+        font-weight: bold;
+        margin-left: 750px;
+        position: absolute;
+        bottom: 30px;
+        color: white;
+      }
+      .seller {
+        font-size: large;
+        font-weight: bold;
+        margin-left: 850px;
+        position: absolute;
+        bottom: 30px;
+        color: white;
+      }
+      .maincontainer {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .offerbox {
+        width: 350px;
+        height: 400px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-left: 10px;
+        border: 2px solid black;
+      }
+      .heading {
+        font-size: x-large;
+        font-weight: bold;
+        margin: 5px;
+      }
+      .offercard {
+        width: 300px;
+        height: 300px;
+        margin-left: 5px;
+      }
+      
+      .heading2 {
+        font-size: large;
+        font-weight: bold;
+        color: green;
+        margin-left: 5px;
+      }
+      .products {
+        width: 350px;
+        height: 400px;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        /* margin-left: 20px; */
+        border: 2px solid black;
+      }
+      .product-cards2 {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+      }
+      .image {
+        width: 150px;
+        height: 100px;
+      }
+      .image:hover {
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+      }
+
+      .product-card2 {
+        width: 150px;
+        height: 100px;
+
+        /* background-color: aqua; */
+        margin: 10px;
+      }
+      .image1{
+        width: 300px;
+        height: 300px;
+      }
+      .image1:hover{
+        border: 2px solid black;
+        border-radius: 15px 15px 15px 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="firstbox">
+      <div class="storename">AMCKART</div>
+      <div class="searchbox">
+        <input type="search" placeholder="Search Here" />
+      </div>
+      <div class="login">login</div>
+      <div class="seller">Become a Seller</div>
+    </div>
+    <div class="maincontainer">
+      <div class="offerbox">
+        <div class="heading">Now India will say "Got it on Amazon!"</div>
+        <div class="offercard">
+          <img class="image1"
+            src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Events/Jupiter-22/PC-CC/revise/PC_CC_UNREC_2x_EN1._SY608_CB610541474_.jpg"
+            
+          />
+        </div>
+        <div class="heading2">See all upcoming offers</div>
+      </div>
+      <div class="products">
+        <div class="heading">top pics your home</div>
+        <div class="product-cards2">
+          <div class="product-card2">
+            <img
+              class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-372x232----B08RDL6H79._SY232_CB667322346_.jpg"
+            />
+            <span>ACs</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B08345R1ZW---372x232._SY232_CB667322346_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Refrigerators</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/B07G5J5FYP._SY232_CB667322346_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Microwaves</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08CPQVLZT._SY232_CB667322346_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Washing Machines</span>
+          </div>
+        </div>
+        <div class="heading2">see more</div>
+      </div>
+      <div class="products">
+        <div class="heading">Amazon Pay | Book your travel tickets</div>
+        <div class="product-cards2">
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/Flight_1._SY232_CB636958085_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Flight tickets</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/Bus_3._SY232_CB636958085_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Bus tickets</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/Train_2._SY232_CB636958085_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Train tickets</span>
+          </div>
+          <div class="product-card2">
+            <img class="image"
+              src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/Travel_accessories_4._SY232_CB636958085_.jpg"
+              width="150px"
+              height="100px"
+            />
+            <span>Essential travel products</span>
+          </div>
+        </div>
+        <div class="heading2">Explore more from amazon pay</div>
+      </div>
+    </div>
+  </body>
+</html>
